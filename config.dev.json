@@ -29,7 +29,7 @@
 		"whiteListThreadIds": [],
 		"notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
 		"how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
-	,
+	},
 	"database": {
 		"type": "mongodb",
 		"uriMongodb": "mongodb+srv://pogoyaljur:4IDwawJ9C526kHZm@cluster0.33mt9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
