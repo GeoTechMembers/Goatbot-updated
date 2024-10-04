@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ Yae Miko 2nd Ruler of Inazuma ]"; // changing this wont change the goatbot V2 of list cmd it ijust a decoyy
+const doNotDelete = "[ Raiden Shogun Ruler of Inazuma]"; // changing this wont change the goatbot V2 of list cmd it ijust a decoyy
 
 module.exports = {
   config: {
@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `╔═══════════╗\n       ⛩️ Yae Miko ⛩️\n╚═══════════╝`; // replace with your name 
+      msg += `╔═══════════╗\n      Raiden Shogun\n╚═══════════╝`; // replace with your name 
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -61,7 +61,7 @@ module.exports = {
       const totalCommands = commands.size;
       msg += `\nCurrently,the Yae miko bot has ${totalCommands} Commands that can be used\n`;
       msg += `Just type ${prefix} help cmdname to view the details of that Command\n`;
-      msg += `[ 2nd Ruler of Inazuma ]`; // its not decoy so change it if you want 
+      msg += `[ Raiden Shogun Ruler of Inazuma ]`; // its not decoy so change it if you want 
 
       await message.reply(msg);
     } else {
