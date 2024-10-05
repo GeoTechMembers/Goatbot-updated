@@ -61,6 +61,7 @@ module.exports = {
       const totalCommands = commands.size;
       msg += `\nCurrently,the Yae miko bot has ${totalCommands} Commands that can be used\n`;
       msg += `Just type ${prefix} help cmdname to view the details of that Command\n`;
+      msg += `Support the developers https://buymeacoffee.com/aljurpogoy
       msg += `[ Raiden Shogun Ruler of Inazuma ]`; // its not decoy so change it if you want 
 
       await message.reply(msg);
